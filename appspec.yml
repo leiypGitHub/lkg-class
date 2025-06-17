@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-northeast-1:927281280530:task-definition/lkg-class-book-manager:1" 
+        TaskDefinition: "arn:aws:ecs:ap-northeast-1:891377176411:task-definition/lkg-class-manager:1" 
         LoadBalancerInfo:
-          ContainerName: "book-manager"
+          ContainerName: "book_manager"
           ContainerPort: 8080
